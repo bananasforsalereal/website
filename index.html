@@ -6,14 +6,26 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background-color: yellow;
+background-image: url('bg.jpg');
+  margin: 0;
 }
 .bananer {
 border-radius: 15px;
 }
+.greg {
+z-index: -1;
+width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+}
 </style>
 </head>
 <body>
+  <div class="greg">
+  </div>
 <h1>Bananas for sale!</h1>
 <img class="bananer" src="https://f.feridinha.com/Q3jal.png">
 <p>Call Wesley</p>
