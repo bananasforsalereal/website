@@ -1,0 +1,54 @@
+* {
+    font-family: 'MS Pgothic', 'Arial';
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    text-align: center;
+}
+
+#storeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.storeDiv {
+    border-radius: 8px;
+}
+
+.storeDiv .img {
+    background: black;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.storeDiv .img img {
+    object-fit: cover;
+    height: 100px;
+    width: 200px;
+    padding: 5px;
+}
+
+.storeDiv .main {
+    background: #535353;
+    padding: 10px;
+    color: white;
+    border-radius: 0 0 8px 8px;
+}
